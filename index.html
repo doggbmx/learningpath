@@ -4,23 +4,54 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.tailwindcss.com"></script>
         <title>PROJECT ONE</title>
     </head>
 
     <body>
-        <div class="header">
-            <div class="container">
-                <div class="navbar" role="navigation">
-                    <div class="navbar-header">
-                        <button type="button" id="nav-toggle" class="nav-toggle">Boton</button>
-                    </div>
+        <!-- Nav Bar comienza aca -->
+        <nav class="bg-blue-700 shadow-lg">
+            <div class="container mx-auto">
+                <div class="sm:flex justify-around">
+                    <!--Titulo de mi pag-->
+                    <img src="https://logos-download.com/wp-content/uploads/2016/04/CS_logo_logotype_emblem_CS_GO-700x382.png" width="100" alt="logo" class="mr-2"></a>
+                    <!-- ITEMS -->
+                    <ul class="text-gray-400 sm:self-center text-xl border-t sm:border-none">
+                        <li class="sm:inline-block">
+                            <a href="" class="p-3 hover:text-white">Primero</a>
+                        </li>
+                        <li class="sm:inline-block">
+                            <a href="" class="p-3 hover:text-white">Segundo</a>
+                        </li>
+                        <li class="sm:inline-block">
+                            <a href="" class="p-3 hover:text-white">Tercero</a>
+                        </li>
+                        <li class="sm:inline-block">
+                            <a href="" class="p-3 hover:text-white">Cuarto</a>
+                        </li>
+                        <li class="sm:inline-block">
+                            <a href="" class="p-3 py-2 px-4 hover:text-black hover:bg-yellow-200 bg-yellow-400 rounded ease-in duration-150">Quinto</a>
+                        </li>
+                    </ul>
+                    <!-- ITEMS ENDS HERE -->
                 </div>
-                <div></div>
+            </div>
+        </nav>
+        <!-- NAV END -->
+        <!-- HEADER -->
+        <div class="md:flex justify-between bg-gray-700">
+            <!-- IZQ -->
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-2xl md:text-3xl lg:text-5xl text-center mb-6 text-purple-600">Manuel Ortigoza</h1>
+                <p class="text-center mb-6 text-purple-600"><b>Gilaso de tiempo completo</b></p>
+                <a href="#" class="inline-block py-3 px-6 text-lg bg-gray-800 text-white-800 rounded mr-2 hover:text-gray-400">Contact</a>
+                <a href="" class="inline-block bg-orange-400 text-orange-800 hover:bg-orange-200 py-3 px-6 rounded">No, mejor no</a>
+            </div>
+            <!-- DERECHA -->
+            <div class="w-1/2">
+                <img src="https://pbs.twimg.com/media/EvuCCo6XEAc90E0?format=jpg&name=large" alt="titulacion" width="300" height="150" class="rounded shadow-2xl">
             </div>
         </div>
-        <h1>Manuel Ortigoza</h1>
-        <p><b>Gilaso de tiempo completo</b></p>
-
+        <!-- END HEADER -->
     </body>
 </html>
