@@ -10,41 +10,47 @@
 
     <body>
         <!-- Nav Bar comienza aca -->
-        <nav class="bg-blue-700 shadow-lg">
+        <nav class="bg-blue-700 shadow-lg sm:px-4">
             <div class="container mx-auto">
                 <div class="sm:flex justify-around">
                     <!--Titulo de mi pag-->
-                    <img src="https://logos-download.com/wp-content/uploads/2016/04/CS_logo_logotype_emblem_CS_GO-700x382.png" width="100" alt="logo" class="mr-2"></a>
+                    <img src="https://logos-download.com/wp-content/uploads/2016/04/CS_logo_logotype_emblem_CS_GO-700x382.png" width="100" alt="logo" class="ml-2 mr-2"></a>
                     <!-- ITEMS -->
-                    <ul class="text-gray-400 sm:self-center text-xl border-t sm:border-none">
-                        <li class="sm:inline-block">
-                            <a href="" class="p-3 hover:text-white">Primero</a>
-                        </li>
-                        <li class="sm:inline-block">
-                            <a href="" class="p-3 hover:text-white">Segundo</a>
-                        </li>
-                        <li class="sm:inline-block">
-                            <a href="" class="p-3 hover:text-white">Tercero</a>
-                        </li>
-                        <li class="sm:inline-block">
-                            <a href="" class="p-3 hover:text-white">Cuarto</a>
-                        </li>
-                        <li class="sm:inline-block">
-                            <a href="" class="p-3 py-2 px-4 hover:text-black hover:bg-yellow-200 bg-yellow-400 rounded ease-in duration-150">Quinto</a>
-                        </li>
-                    </ul>
+                    <div>
+                        <ul class="text-gray-400 sm:self-left text-xl border-t sm:border-none mt-3">
+                            <li class="sm:inline-block">
+                                <a href="" class="p-3 hover:text-white">Primero</a>
+                            </li>
+                            <li class="sm:inline-block">
+                                <a href="" class="p-3 hover:text-white">Segundo</a>
+                            </li>
+                            <li class="sm:inline-block">
+                                <a href="" class="p-3 hover:text-white">Tercero</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sm:flex justify-around">
+                        <ul class="text-gray-400 sm:self-right text-xl border-t sm:border-none mt-3">
+                            <li class="sm:inline-block">
+                                <a href="" class="p-3 hover:text-white">Cuarto</a>
+                            </li>
+                            <li class="sm:inline-block">
+                                <a href="" class="p-3 py-2 px-4 hover:text-black hover:bg-yellow-200 bg-yellow-400 rounded ease-in duration-150">Quinto</a>
+                            </li>
+                        </ul>
+                    </div>
                     <!-- ITEMS ENDS HERE -->
                 </div>
             </div>
         </nav>
         <!-- NAV END -->
         <!-- HEADER -->
-        <div class="md:flex justify-between bg-gray-700">
+        <div class="md:flex justify-between bg-gray-700 py-5">
             <!-- IZQ -->
-            <div class="md:w-1/2 mb-10 md:mb-0">
+            <div class="md:w-1/2 py-7 md:mb-0">
                 <h1 class="text-2xl md:text-3xl lg:text-5xl text-center mb-6 text-black-600 mt-6">Manuel Ortigoza</h1>
                 <p class="text-center mb-6 text-black-600"><b>Gilaso de tiempo completo</b></p>
-                <a href="" class="inline-block py-3 px-6 text-lg bg-gray-800 text-white-800 rounded mr-2 hover:text-gray-400 mt-6 md:ml-40">Contact</a>
+                <a href="" class="inline-block py-3 px-6 text-lg bg-gray-800 text-white-800 rounded mr-2 hover:text-gray-400 mt-6 lg:ml-40 md:ml-6">Contact</a>
                 <a href="" class="inline-block bg-orange-400 text-orange-800 hover:bg-orange-200 py-3 px-6 rounded md:mt-6">No, mejor no</a>
             </div>
             <!-- DERECHA -->
@@ -55,7 +61,8 @@
         <!-- END HEADER -->
         <!-- 3ra parte empieza aqui -->
         <div class="md:flex py-16 py-10 bg-pink-800 text-black">
-            <div class="md:w-50 ml-6 mr-6 text-center mt-6">
+
+            <div class="md:w-50 ml-6 mr-6 text-center">
                 <img src="gif.gif" alt="gif" class="mb-4 rounded border-solid border-2 border-white-900 hover:shadow-2xl ease-in duration-150">
                 <p><b><i>dancing moves</i></b></p>
             </div>
@@ -78,7 +85,22 @@
         </div>
         <!-- 3ra parte termina aca -->
         <!-- PARTE FINAL BEGINS HERE -->
-
+        <div class="p-10 bg-gray-900 flex justify-between font-bold">
+        <!-- IZQUIERDA -->
+            <div class="sm:w-1/2">
+                <h3 class="text-lg mb-2">Decime cosas sucias</h3>
+                <form class="flex">
+                    <input type="email" name="" id="" class="focus:bg-indigo-200">
+                    <input type="text" class="ml-2 focus:bg-indigo-200 rounder-l">
+                    <button class="bg-red-200 hover:bg-red-400 text-red-800 rounded-r px-2">PIMPAMPUM</button>
+                </form>
+            </div>
+        <!-- DERECHA -->
+            <div class="flex items-center">
+                Todos los derechos reservados © <br>
+                Gilada company - 1994-Infinity
+            </div>
+        </div>
         <!-- PARTE FINAL ENDS HERE -->
     </body>
 </html>
