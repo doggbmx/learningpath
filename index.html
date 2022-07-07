@@ -15,45 +15,48 @@
     </head>
 
     <body class="font-sans">
+        
+        <script>
+            function Menu(e){
+                let list = document.querySelector("ul");
+                e.name === 'menu' ? (e.name = "close", list.classList.add('opacity-100')) :( e.name = "menu" , list.classList.remove('top-[80px]'), list.classList.remove('opacity-100'))
+            }
+        </script>
+
         <!-- Nav Bar comienza aca -->
         <nav class="bg-blue-700 shadow-lg py-2">
-            <div class="container mx-auto">
+            <div class="">
                 <div class="flex items-center justify-between">
-                    <!--Titulo de mi pag-->
+                    <!--Icon de mi pag-->
                     <img src="https://logos-download.com/wp-content/uploads/2016/04/CS_logo_logotype_emblem_CS_GO-700x382.png" width="100" alt="logo" class="ml-2 mr-2"></a>
+
                     <!-- BOTON X -->
                     <span class="text-3xl cursor-pointer mx-2 md:hidden block">
                         <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
                     </span>
+
                     <!-- ITEMS -->
                     <ul class="md:flex md:items-center text-gray-400 text-xl z-[-1] md:z-auto md:static absolute bg-blue-700 w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] tansition-all ease-in duration-500">
                         <li class="mx-4 my-6 md:my-0">
-                            <a href="" class="p-3 hover:text-white">Primero</a>
+                            <a href="#" class="p-3 hover:text-white">Primero</a>
                         </li>
                         <li class="mx-4 my-6 md:my-0">
-                            <a href="" class="p-3 hover:text-white">Segundo</a>
+                            <a href="#" class="p-3 hover:text-white">Segundo</a>
                         </li>
                         <li class="mx-4 my-6 md:my-0">
-                            <a href="" class="p-3 hover:text-white">Tercero</a>
+                            <a href="#" class="p-3 hover:text-white">Tercero</a>
                         </li>
                         <li class="mx-4 my-6 md:my-0">
-                            <a href="" class="p-3 hover:text-white">Cuarto</a>
+                            <a href="#" class="p-3 hover:text-white">Cuarto</a>
                         </li>
                         <li class="mx-4 my-6 md:my-0">
-                            <a href="" class="p-3 py-2 px-4 hover:text-black hover:bg-yellow-200 bg-yellow-400 rounded ease-in duration-350">Quinto</a>
+                            <a href="#" class="p-3 py-2 px-4 hover:text-black hover:bg-yellow-200 bg-yellow-400 rounded ease-in duration-350">Quinto</a>
                         </li>
                     </ul>
                     <!-- ITEMS ENDS HERE -->
                 </div>
             </div>
         </nav>
-
-        <script>
-            function Menu(e){
-                let list = document.querySelector("ul");
-                e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
-            }
-        </script>
 
         <!-- NAV END -->
         <!-- HEADER -->
